@@ -8,6 +8,6 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* Begin site styles below */
 
-h1 {
-  color: red;
+html {
+  font-family: Georgia;
 }
