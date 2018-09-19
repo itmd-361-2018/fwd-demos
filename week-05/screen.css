@@ -11,6 +11,11 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 html {
   font-size: 1.125em; /* 18px / 16px = 1.125em */
   line-height: 1.222em; /* 22px / 18px = 1.222... */
+  background-image: url(22px-baseline.png);
+  padding: 1.222em 1em;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-weight: bold;
 }
 
 p {
