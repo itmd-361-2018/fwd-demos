@@ -8,8 +8,23 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* Begin site styles below */
 
+p {
+  color: green;
+}
+
+
 
 #navigation a[href="#content"] {
   color: black;
   text-decoration: none;
+}
+
+/* 10 points */
+.intro {
+  color: purple;
+}
+
+/* 1 point */
+p {
+  color: red;
 }
