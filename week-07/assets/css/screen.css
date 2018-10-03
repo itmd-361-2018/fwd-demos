@@ -8,23 +8,17 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* Begin site styles below */
 
-p {
-  color: green;
-}
+/* Base Styles (element selectors; color, typography, and that's it)*/
 
 
+/* Layout (id selectors; width/height, position, flexbox, grid)*/
+
+
+/* Module/Modular Section (class or descedent selectors; repeating specific styles) */
 
 #navigation a[href="#content"] {
   color: black;
   text-decoration: none;
 }
 
-/* 10 points */
-.intro {
-  color: purple;
-}
-
-/* 1 point */
-p {
-  color: red;
-}
+/* State (repeat the structure above; media queries, JavaScript-dependent styles) */
