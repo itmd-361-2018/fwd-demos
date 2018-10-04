@@ -43,7 +43,7 @@
     "selector-pseudo-class-case": "lower",
     "selector-type-case": "lower",
     "string-quotes": "double",
-    "unit-blacklist": ["px", "pt", "in", "cm", "mm"],
+    "unit-blacklist": [["px", "pt", "in", "cm", "mm"], ignoreMediaFeatureNames: { "px": ["min-width"] }],
     "unit-case": "lower",
     "unit-no-unknown": true,
     "value-keyword-case": "lower",
