@@ -10,6 +10,12 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* Base Styles (element selectors; color, typography, and that's it)*/
 
+html {
+  font-family: Merriweather, "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 26px;
+}
+
 
 /* Layout (id selectors; width/height, position, flexbox, grid)*/
 
