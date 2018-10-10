@@ -8,17 +8,19 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 ul.gallery {
   background: red;
-  border: 0.625em solid blue;
-  margin: 10%;
-  padding: 10%;
+  overflow: auto;
 }
 ul.gallery li {
+  width: 80px;
   background: yellow;
+  float: left;
 }
 
-b {
-  background: green;
+#footer {
+  clear: both;
+  float: none;
 }
+
 /* Responsive Image Styles */
 img {
   display: block;
