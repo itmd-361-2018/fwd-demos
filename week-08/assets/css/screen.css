@@ -13,12 +13,19 @@ ul.gallery {
 ul.gallery li {
   width: 80px;
   background: yellow;
-  float: left;
+  position: absolute;
+}
+ul.gallery li + li {
+  left: 80px;
+}
+ul.gallery li + li + li {
+  left: 160px;
 }
 
+
+
 #footer {
-  clear: both;
-  float: none;
+  margin-top: 200px;
 }
 
 /* Responsive Image Styles */
