@@ -150,3 +150,16 @@ header small {
     background: yellow;
   }
 }
+
+@media screen and (min-width: 850px) {
+  /* Available-space calculations for content at 850px: */
+  /* 12% * 850 = 102 * 2 = 204 = 646px-wide */
+  .primary {
+    /* TODO: Remove diagnostic color */
+    background: red;
+    width: 30.7619047619em; /* 646 / 21 = 30.7619047619 */
+  }
+  #calendar .primary {
+    width: auto;
+  }
+}
