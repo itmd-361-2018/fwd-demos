@@ -125,3 +125,10 @@ header small {
   content: "";
   list-style-type: none;
 }
+/* Layout */
+
+@media screen and (min-width: 600px) {
+  html {
+    padding: 1.2631578947em 12%; /* 72px (aka 3 typographic grid lines) / 600 = 0.12 */
+  }
+}
