@@ -132,3 +132,21 @@ header small {
     padding: 1.2631578947em 12%; /* 72px (aka 3 typographic grid lines) / 600 = 0.12 */
   }
 }
+
+@media screen and (min-width: 720px) {
+  html {
+    font-size: 1.3125em; /* 21 / 16 = 1.3125 */
+  }
+  .agenda,
+  .assignments {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1.2631578947em; /* 24 / 19px = 1.2631578947 */
+    column-gap: 1.2631578947em; /* 24 / 19px = 1.2631578947 */
+  }
+
+  .meeting {
+    /* TODO: Remove diagnostic color */
+    background: yellow;
+  }
+}
