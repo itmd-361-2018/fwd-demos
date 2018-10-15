@@ -117,3 +117,10 @@ header {
 header small {
   display: block;
 }
+
+/* Module */
+.agenda > li::before,
+.assignments {
+  content: "";
+  list-style-type: none;
+}
