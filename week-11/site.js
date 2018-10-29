@@ -28,8 +28,21 @@
     heading.addEventListener('click', function() {
       // When it's clicked, add a 'visible' class to our
       // #content element
-      document.querySelector('#content').className = 'visible';
+      var content = document.querySelector('#content');
+      // Create an array of classes
+      var classes = content.className.split(' ');
+      // Set the default visible_class; assume we're going
+      // to have to add it
+      var visible_class = 'visible';
+      // Check for our visible class...
+      if (classes.includes('visible')){
+        visible_class = '';
+      }
+      // TODO: make use of classes array so as to
+      // overwrite any other existing classes
+      content.className = visible_class;
     });
+
   });
 
 
