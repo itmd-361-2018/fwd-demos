@@ -34,13 +34,22 @@
       // Set the default visible_class; assume we're going
       // to have to add it
       var visible_class = 'visible';
+
       // Check for our visible class...
-      if (classes.includes('visible')){
-        visible_class = '';
+      if (classes.includes(visible_class)){
+        // If it exists in the array, remove it...
+        // Use Array.prototype.filter to remove the visible class
+        // See https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
+        classes = classes.filter(function(c) {
+          // Preserve each class whose value isn't 'visible'
+          return c !== visible_class;
+        });
+      } else {
+        // Otherwise, add 'visible' onto the classes array
+        classes.push(visible_class);
       }
-      // TODO: make use of classes array so as to
-      // overwrite any other existing classes
-      content.className = visible_class;
+      // Finally, the className to the joined array of classes; separate each by a space
+      content.className = classes.join(" ");
     });
 
   });
