@@ -26,30 +26,11 @@
 
     // Listen for click events on the heading...
     heading.addEventListener('click', function() {
-      // When it's clicked, add a 'visible' class to our
-      // #content element
       var content = document.querySelector('#content');
-      // Create an array of classes
-      var classes = content.className.split(' ');
-      // Set the default visible_class; assume we're going
-      // to have to add it
-      var visible_class = 'visible';
-
-      // Check for our visible class...
-      if (classes.includes(visible_class)){
-        // If it exists in the array, remove it...
-        // Use Array.prototype.filter to remove the visible class
-        // See https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
-        classes = classes.filter(function(c) {
-          // Preserve each class whose value isn't 'visible'
-          return c !== visible_class;
-        });
-      } else {
-        // Otherwise, add 'visible' onto the classes array
-        classes.push(visible_class);
-      }
-      // Finally, the className to the joined array of classes; separate each by a space
-      content.className = classes.join(" ");
+      // When it's clicked, toggle a 'visible' class to our
+      // #content element
+      // See https://developer.mozilla.org/en-US/docs/Web/API/Element/classList
+      content.classList.toggle('visible');
     });
 
   });
