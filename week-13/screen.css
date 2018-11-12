@@ -26,3 +26,15 @@ html {
   padding: 14px;
   text-decoration: none;
 }
+.nav a:hover,
+a#menu-button:focus {
+  background: red;
+}
+
+/* State Styles */
+.js .nav {
+  display: none;
+}
+.js .nav.visible {
+  display: block;
+}
