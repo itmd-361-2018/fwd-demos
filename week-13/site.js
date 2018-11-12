@@ -1,3 +1,9 @@
+// Remove the 'nojs' class and add the 'js' class
+
+var html = document.querySelector('html');
+html.classList.remove('nojs');
+html.classList.add('js');
+
 // Ultimately, we want to insert this HTML before
 // the unordered list in the `<nav>` element:
 // <h2><a href="#navigation">Menu</a></h2>
