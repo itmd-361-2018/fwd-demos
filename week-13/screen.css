@@ -15,7 +15,8 @@ html {
 }
 
 /* Modular Styles */
-.nav a {
+.nav a,
+#navigation h2 a {
   background: blue;
   border-radius: 6px;
   color: white;

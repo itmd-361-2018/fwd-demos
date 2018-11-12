@@ -12,3 +12,6 @@ var menu_link = document.createElement('a');
 menu_link.textContent = 'Menu';
 // Append the menu_link to the heading element
 nav_heading.append(menu_link);
+
+// Finally, append the nav_heading to #navigation
+navigation.insertBefore(nav_heading,nav_list);
