@@ -1,4 +1,4 @@
-## Video Index by Commit
+## [YouTube Video](https://youtu.be/yD6vCEuejwA) Indexes by Commit
 
 * [Add some simple content](https://github.com/itmd-361-2018/fwd-demos/commit/9235e91b37b6de2e00710688854b270eb4ead215) [[Video](https://youtu.be/yD6vCEuejwA?t=348)]
 * [Add IIFE and quick browser feature test](https://github.com/itmd-361-2018/fwd-demos/commit/5070f8f74e8c4aee2033a2ff27e1f94c64210b36) [[Video](https://youtu.be/yD6vCEuejwA?t=1568)]
